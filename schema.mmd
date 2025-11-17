@@ -1,0 +1,13 @@
+classDiagram
+  class Creature {
+    -energy : number
+    +name : string
+    +species: string
+
+    +constructor(name:string, species: string)
+    +move() void
+    +rest() void
+    +getEnergy() number
+  }
+
+note for Creature "Encapsulation, energy est privée, name et espèce sont publique."
